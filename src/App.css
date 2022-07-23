@@ -1,0 +1,165 @@
+body {
+  background-image: url('../public/background.png');
+  background-color:rgba(255,255,255,0.6);
+  background-blend-mode:lighten;
+  background-attachment: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #005b99;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #373a47;
+}
+
+.bm-menu {
+  background-color: rgba(217,242,255, 0.7);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: flex;
+  text-decoration: none;
+  outline: none;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#header {
+  opacity: 0.7;
+  position: relative;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#top, #products, #aboutMe, #footer {
+  background-color: rgba(217,242,255, 1);
+}
+
+
+.card {
+  background-color: rgba(94,191,255, 0.7);
+}
+
+#Logo01 {
+  width: 10em;
+  height: 10em;
+}
+
+#Logo02 {
+  width: 20em;
+  height: 20em;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+.cards {
+  width: 75%;
+}
+
+.cImg {
+  width: 10em;
+  height: 8em;
+  position:relative;
+  left: 2em;
+}
+
+.cImg02 {
+  width: 10em;
+  height: 10em;
+}
+
+#ContactForm {
+  background-color: rgba(94,191,255, 0.7);
+  width: 30em;
+}
+
+.formName, .formEmail {
+  width: 20em;
+}
+
+.formText {
+  width: 90%;
+}
+
+.roundArrow {
+  position: relative;
+  display: inline-block;
+  padding: 4em;
+  border: 1px solid #0075c2;
+  border-radius: 50%;
+  top: 5em;
+  background-color: #0075c2;
+  z-index: 5;
+}
+
+.roundArrow::before {
+  content: '';
+  width: 3em;
+  height: 3em;
+  border-top: solid 1em white;
+  border-right: solid 1em white;
+  position: absolute;
+  left: 2.5em;
+  top: 2em;
+}
+
+.roundArrow.upArrow::before {
+  transform: rotate(-45deg);
+  top: 2em;
+}
+
+.copyright {
+  position: relative;
+  background-color: #0075c2;
+  padding: 2em;
+  color: white;
+}
+
+.cText {
+  position: relative;
+  z-index: 10;
+}
